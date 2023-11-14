@@ -56,20 +56,21 @@ class queue:
 
 
 
-a=queue(5)
-x=a.Dequeue()
-print(x)
-a.Enqueue(1)
-print(a.List)
-a.Enqueue(2)
-print(a.List)
-a.Enqueue(3)
-print(a.List)
-a.Enqueue(4)
-print(a.List)
-a.Enqueue(5)
-print(a.List)
-a.ReverseQueue()
+# a=queue(5)
+# x=a.Dequeue()
+# print(x)
+# a.Enqueue(1)
+# print(a.List)
+# a.Enqueue(2)
+# print(a.List)
+# a.Enqueue(3)
+# print(a.List)
+# a.Enqueue(4)
+# print(a.List)
+# a.Enqueue(5)
+# print(a.List)
+# a.ReverseQueue()
 
-print(a.List)
+# print(a.List)
 
+# khaste nabashid
