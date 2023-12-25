@@ -10,9 +10,9 @@ class Bubble ():
                 j=i+1
                 if (self.List[i]>self.List[j]):
                     self.Flag=False
-                    swaper=self.List[i]
+                    swapper=self.List[i]
                     self.List[i]=self.List[j]
-                    self.List[j]=swaper
+                    self.List[j]=swapper
             if self.Flag==True:
                 break
         return
