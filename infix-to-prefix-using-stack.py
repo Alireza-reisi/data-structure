@@ -22,7 +22,7 @@ class Stack():
                 
 # ===============================
 
-input_var=input("Enter infix: ")
+input_var=input()
 input_var=input_var.split()
 input_var=input_var[::-1]
 output_var=[None for i in range (len(input_var))]
@@ -57,8 +57,8 @@ for i in range(len(input_var)):
     elif input_var[i]=="(":
         stack.Push(input_var[i])
         
-    elif input_var[i]==")":
-        while stack.List[stack.top-1]!="(":
+    elif input_var[i]=="(":
+        while stack.List[stack.top-1]!=")":
             output_var[j]=stack.Pop()
             j+=1
         stack.Pop()
